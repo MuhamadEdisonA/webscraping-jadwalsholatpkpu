@@ -4,3 +4,7 @@ from bs4 import BeautifulSoup
 url = "https://jadwalsholat.pkpu.or.id/?id=266"
 contents = requests.get(url)
 print(contents.text)
+
+response = BeautifulSoup(contents.text)
+print(response)
+
