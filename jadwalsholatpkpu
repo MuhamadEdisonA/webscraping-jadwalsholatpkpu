@@ -1,0 +1,3 @@
+url = https://jadwalsholat.pkpu.or.id/?id=266
+contents = request.get(url)
+print(contents)
